@@ -1,7 +1,6 @@
 import { Suspense, lazy } from "react";
 import { Routes, Route } from "react-router-dom";
 import Navigation from "../Navigation/Navigation";
-import NotFoundPage from "../../pages/NotFoundPage/NotFoundPage";
 
 import "./App.module.css";
 
