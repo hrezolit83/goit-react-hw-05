@@ -1,0 +1,10 @@
+.select {
+  font-size: 0.9em;
+  font-weight: 500;
+  color: #213547;
+  cursor: pointer;
+  background: linear-gradient(to bottom, #2980b9, #6dd5fa);
+  border: none;
+  outline: none;
+  border-radius: 8px;
+}
