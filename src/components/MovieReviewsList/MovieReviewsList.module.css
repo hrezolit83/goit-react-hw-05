@@ -1,0 +1,26 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 16px;
+}
+
+.text {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.description {
+  font-style: italic;
+}

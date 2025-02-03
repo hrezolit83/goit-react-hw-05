@@ -1,0 +1,14 @@
+.btn {
+  border: none;
+  text-decoration: none;
+  border-radius: 16px;
+  background: linear-gradient(to bottom, #2980b9, #6dd5fa);
+  transition: all 0.25s ease;
+  outline: none;
+  margin: 0 auto;
+  padding: 4px;
+}
+
+.btn:hover {
+  color: rgb(240, 255, 36);
+}

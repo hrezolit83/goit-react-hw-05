@@ -1,0 +1,14 @@
+.list {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.item {
+  border: 1px solid black;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #2980b9, hsl(196, 71%, 73%));
+}

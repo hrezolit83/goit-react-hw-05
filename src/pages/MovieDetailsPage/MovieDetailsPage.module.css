@@ -1,0 +1,26 @@
+.container {
+  margin: 0 auto;
+}
+
+.info {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.link {
+  text-decoration: none;
+  color: #213547;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  padding: 4px;
+  border-radius: 8px;
+  background: linear-gradient(to bottom, #2980b9, #6dd5fa);
+  margin-bottom: 8px;
+}
+
+.link:hover {
+  color: rgb(240, 255, 36);
+}
