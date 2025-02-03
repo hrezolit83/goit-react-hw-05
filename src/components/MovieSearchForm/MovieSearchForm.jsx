@@ -1,5 +1,5 @@
 import toast from "react-hot-toast";
-import { ToSearch } from "react-icons/io5";
+import { IoSearch } from "react-icons/io5";
 import css from "./MovieSearchForm.module.css";
 
 const MovieSearchForm = ({ onSearch }) => {
@@ -8,14 +8,14 @@ const MovieSearchForm = ({ onSearch }) => {
     const form = e.target;
     const result = form.elements.query.value.trim();
     if (result === "") {
-        toast.error("Please, enter search params!");
-        onSearch("");
+      toast.error("Please, enter search params!");
+      onSearch("");
     }
 
     onSearch(result);
     form.reset();
   };
-  
+
   return (
     <form className={css.form} onSubmit={hendleSubmit}>
       <input
@@ -27,7 +27,7 @@ const MovieSearchForm = ({ onSearch }) => {
         placeholder="Search..."
       />
       <button className={css.btn} type="submit" title="Search">
-        <ToSearch />
+        <IoSearch />
       </button>
     </form>
   );

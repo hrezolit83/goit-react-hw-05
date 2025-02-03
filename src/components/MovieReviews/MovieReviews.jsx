@@ -21,7 +21,7 @@ const MovieReviews = () => {
         setLoading(true);
         setError(false);
         const data = await fetchReviews(movieId, page);
-        setReviews((prevPages) => [...prevPages, ...data]);
+        setReviews((prevReviews) => [...prevReviews, ...data]);
         setIsVisible(page < data.total_pages);
       } catch (error) {
         setError(error);

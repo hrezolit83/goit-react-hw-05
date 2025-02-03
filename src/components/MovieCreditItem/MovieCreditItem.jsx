@@ -4,8 +4,8 @@ const MovieCreditItem = ({ cast }) => {
   const baseURL = "https://image.tmdb.org/t/p/w500";
 
   return (
-    <div>
-      <div>
+    <div className={css.container}>
+      <div className={css.wrap}>
         <img
           className={css.img}
           src={

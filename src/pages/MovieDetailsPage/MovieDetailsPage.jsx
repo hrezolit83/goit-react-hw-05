@@ -50,7 +50,7 @@ const MovieDetailsPage = () => {
             Cast
           </Link>
 
-          <Link to="rviews" className={css.link}>
+          <Link to="reviews" className={css.link}>
             Reviews
           </Link>
         </div>
