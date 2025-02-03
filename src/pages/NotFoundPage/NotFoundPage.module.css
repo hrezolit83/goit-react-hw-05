@@ -1,8 +1,9 @@
 .btn {
   border: none;
   text-decoration: none;
-  border-radius: 16px;
-  background: linear-gradient(to bottom, #2980b9, #6dd5fa);
+  border-radius: 8px;
+  color: #ffff;
+  background: linear-gradient(to bottom, #595ba7, #3150d8);
   transition: all 0.25s ease;
   outline: none;
   margin: 0 auto;
@@ -11,4 +12,8 @@
 
 .btn:hover {
   color: rgb(240, 255, 36);
+}
+
+.title {
+  color: #ffff;
 }

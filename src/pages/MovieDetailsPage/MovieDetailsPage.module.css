@@ -11,13 +11,13 @@
 
 .link {
   text-decoration: none;
-  color: #213547;
+  color: #ffff;
   font-size: 18px;
   font-weight: 500;
   border: none;
   padding: 4px;
   border-radius: 8px;
-  background: linear-gradient(to bottom, #2980b9, #6dd5fa);
+  background: linear-gradient(to bottom, #1e2db3, #576cb3);
   margin-bottom: 8px;
 }
 

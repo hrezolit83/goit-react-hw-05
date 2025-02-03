@@ -20,12 +20,14 @@
 .title {
   font-size: 20px;
   margin-top: 0;
+  color: #ffff;
 }
 
 .description {
   font-style: italic;
   font-size: 18px;
   margin-top: 0;
+  color: #ffff;
 }
 
 .text {
@@ -33,6 +35,7 @@
   font-weight: 500;
   margin-top: 0;
   margin-left: 0;
+  color: #ffff;
 }
 
 .listFlex {
@@ -69,4 +72,5 @@
 .genre {
   font-size: 18px;
   font-weight: 500;
+  color: #ffff;
 }
