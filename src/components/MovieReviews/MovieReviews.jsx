@@ -5,6 +5,9 @@ import { fetchReviews } from "../../movies-api";
 import ErrorMessage from "../ErrorMessage/ErrorMessage";
 import Loader from "../Loader/Loader";
 import { LoadMoreBtn } from "../LoadMoreBtn/LoadMoreBtn";
+import MovieReviewsList from "../../components/MovieReviewsList/MovieReviewsList";
+
+import css from "./MovieReviews.module.css";
 
 const MovieReviews = () => {
   const { movieId } = useParams();
