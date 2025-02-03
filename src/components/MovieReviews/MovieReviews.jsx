@@ -49,7 +49,7 @@ const MovieReviews = () => {
       {reviews.length > 0 ? (
         <MovieReviewsList reviews={reviews} />
       ) : (
-        <p>Sorry, there are no results.</p>
+        <p className={css.title}>Sorry, there are no results.</p>
       )}
       {isVisible && !loading && <LoadMoreBtn onLoadMore={onLoadMore} />}
     </div>
