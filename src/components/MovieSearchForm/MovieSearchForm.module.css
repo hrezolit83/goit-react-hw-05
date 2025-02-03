@@ -6,7 +6,7 @@
 
 .input {
   border: 1px solid black;
-  border-radius: 16px;
+  border-radius: 8px;
   outline: none;
   padding: 8px;
   transition: border-color 0.3s ease;
@@ -22,7 +22,7 @@
 
 .btn {
   border: 1px solid black;
-  border-radius: 16px;
+  border-radius: 8px;
   outline: none;
   padding: 8px;
   transition: border-color 0.3s ease, color 0.3s ease;
