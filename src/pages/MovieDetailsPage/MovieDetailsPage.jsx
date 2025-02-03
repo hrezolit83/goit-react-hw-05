@@ -13,9 +13,12 @@ const MovieDetailsPage = () => {
   const [movie, setMovie] = useState(null);
   const location = useLocation();
   const { movieId } = useParams();
-  const backLinkHref = useRef(location.state ?? "/");
+  const backLinkHref = useRef(location.state?.from ?? "/");
+  const prevHref = useRef(null);
+  const backLink = backLinkHref.current;
 
   useEffect(() => {
+    prevHref.current = backLink;
     const fetchMovie = async () => {
       try {
         setLoading(true);
@@ -30,7 +33,7 @@ const MovieDetailsPage = () => {
       }
     };
     fetchMovie();
-  }, [movieId]);
+  }, [movieId, backLink]);
 
   return (
     <div className={css.container}>
