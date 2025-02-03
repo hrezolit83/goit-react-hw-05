@@ -3,7 +3,7 @@ import css from "./MovieCreditsList.module.css";
 
 const MovieCreditsList = ({ casts }) => {
   return (
-    <ul>
+    <ul className={css.list}>
       {casts.map((cast) => {
         return (
           <li key={cast.id} className={css.item}>
