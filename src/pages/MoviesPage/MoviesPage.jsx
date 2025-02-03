@@ -59,7 +59,7 @@ const MoviesPage = () => {
       {movies.length > 0 && <MovieList movies={movies} />}
       {isVisible && !loading && <LoadMoreBtn onLoadMore={onLoadMore} />}
       {isEmpty && !loading && movies.length < 1 && (
-        <p>Sorry, but there are no results</p>
+        <p className={css.text}>Sorry, but there are no results</p>
       )}
     </div>
   );
